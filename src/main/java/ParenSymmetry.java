@@ -5,6 +5,8 @@ public class ParenSymmetry {
 
     public Boolean isBalanced(String s) {
         return null;
+
+       // click command b on tet when you go to test
     }
 
     private void checkFile(String filename) {
@@ -50,4 +52,24 @@ public class ParenSymmetry {
             System.out.println("Failure");
         }
     }
+
+
+
+
 }
+
+//para -1
+// theses -1
+//tack number of para track number these
+//if the differnce goes negative we know we are unbalanced
+// for each c in string -s
+// if ( == parens++
+// if ) === c, thesis++
+// if (thesis -parens > 0)(thesis > parens) return false
+//empty if s == "" return false //known as a short circuit case
+// func is-balanced2(s)
+//if s=="" return false
+//parens = 0 thesis = 0
+// if parens == thesis return ture
+//else return fasle
+//create a buffer reader
